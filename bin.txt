@@ -1,0 +1,79 @@
+ <form>
+     <div class="form-row" method="POST" action="/inventory.php">
+          <div class="col-7">
+            <input name="item" type="text" class="form-control" placeholder="Item">
+          </div>
+         
+        <div class="btn-group">
+          <button name="type" type="button" class="btn btn-warning">Type</button>
+           <button name="type" type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             <span name="type" class="sr-only">Type</span>
+           </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">ice cream</a>
+            <a class="dropdown-item" href="#">meat</a>
+            <a class="dropdown-item" href="#">cereals</a>
+            <a class="dropdown-item" href="#">veg</a>
+       </div>
+        </div>
+        <div class="col">
+            <input name="quantity" type="text" class="form-control" placeholder="Quantity">
+          </div>
+          <div class="col">
+            <input name="cost" type="text" class="form-control" placeholder="Cost">
+          </div>
+           <div class="submit-btn bg-warning">
+             <input type="submit" value="submit">
+            </div>
+
+    <table class="table">
+        <tr>
+          <th>Item</th>
+          <th>Type</th>
+          <th>Quantity</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+          <td>rice</td>
+          <td>cereals</td>
+          <td>1kg</td>
+          <td>RS 60</td>
+        </tr>
+        <tr>
+          <td>Chocolate</td>
+          <td>Candy</td>
+          <td>1</td>
+          <td>Rs 10</td>
+        </tr>
+      </table>
+
+
+
+      //style
+      
+.form-row{
+    width: 500px;
+    margin-left:300px ;
+    margin-top: 80px
+
+}
+.table{
+    width: 800px;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.submit-btn{
+    width: 10px;
+    height: 20px;
+    margin-left: 500px;
+    margin-top: 0px;
+}
+
+
+
+ <ul class="list-group list-group-horizontal">
+      <li class="list-group-item">Cras justo odio</li>
+      <li class="list-group-item">Dapibus ac facilisis in</li>
+      <li class="list-group-item">Morbi leo risus</li>
+    </ul>
+    
